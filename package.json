@@ -1,0 +1,17 @@
+{
+  "name": "prestige",
+  "version": "1.0.0",
+  "description": "Auto skola Prestige",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aleksandar Spasic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "morgan": "^1.9.1"
+  }
+}

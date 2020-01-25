@@ -1,0 +1,30 @@
+.aboutUs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.aboutUs img {
+  width: 200px;
+  margin-right: 50px;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1100px) {
+  .aboutUs {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .aboutUs {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .aboutUs img {
+    width: 150px;
+    margin: 0 0 20px 0;
+  }
+}

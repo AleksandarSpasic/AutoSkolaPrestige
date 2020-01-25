@@ -1,0 +1,39 @@
+.terms_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.terms_row img {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 1100px) {
+  .terms_row p {
+    font-size: 13px;
+  }
+
+  .terms_row img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .terms_row {
+    margin: 30px 0;
+  }
+
+  .terms_row p {
+    font-size: 13px;
+  }
+
+  .terms_row img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .terms_row {
+    flex-direction: column;
+  }
+}

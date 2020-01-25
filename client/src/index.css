@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #555;
+}
+
+.page_title .line {
+  width: 250px;
+  height: 3px;
+  background: #fce33c;
+}
+
+@media (max-width: 400px) {
+  .page_title {
+    font-size: 28px;
+  }
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 90%;
+  }
+}
