@@ -41,10 +41,10 @@ const Footer = () => {
             <a onClick={scrollToHome}>
               <FaAngleRight /> <span>Početna</span>
             </a>
-            <a onClick={scrollToAbout}>
+            <a onClick={scrollToTerms}>
               <FaAngleRight /> <span>Termini</span>
             </a>
-            <a onClick={scrollToTerms}>
+            <a onClick={scrollToAbout}>
               <FaAngleRight /> <span>O nama</span>
             </a>
             <a onClick={scrollToGallery}>
