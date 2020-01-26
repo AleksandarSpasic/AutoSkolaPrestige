@@ -42,6 +42,8 @@ app.use(function(req, res, next) {
 });
 
 // Use Routes
+app.use("/users", require("./routes/api/users"));
+app.use("/auth", require("./routes/api/auth"));
 app.use("/photos", require("./routes/api/photos"));
 
 // Serve static assets if in production
