@@ -46,3 +46,36 @@
     grid-auto-rows: 250px;
   }
 }
+
+/* Popup */
+
+.popup_wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup_wrap svg {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: crimson;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.popup_wrap .photo {
+  width: 90%;
+  height: 90%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  position: relative;
+}
